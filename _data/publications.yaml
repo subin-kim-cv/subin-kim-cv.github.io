@@ -1,6 +1,6 @@
 papers:
   - title: "Scalable Neural Video Representations with Learnable Positional Features"
-    image: "/assets/publications/2022_NVP/image.pdf"
+    image: "/assets/publications/2022_NVP/image.jpeg"
     authors: "<b>Subin Kim<sup>*</sup></b>, <a href='https://sihyun.me/'>Sihyun Yu<sup>*</sup></a>, <a href='https://jaeho-lee.github.io/'>Jaeho lee></a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
     venue: "NeurIPS 2022"
     # paper_pdf: "https://aclanthology.org/2021.emnlp-main.279.pdf"
