@@ -139,10 +139,52 @@
 		height: 1px;
 		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 	}
+
+	.material-icons {
+	vertical-align: -6px;
+	}
+
+	.paper-btn {
+		position: relative;
+		text-align: center;
+
+		display: inline-block;
+		margin: 8px;
+		padding: 8px 8px;
+
+		border-width: 0;
+		outline: none;
+		border-radius: 2px;
+
+		background-color: #68a4fd;
+		color: #ecf0f1 !important;
+		font-size: 20px;
+		width: 100px;
+		font-weight: 600;
+	}
+	.paper-btn-parent {
+		display: flex;
+		justify-content: center;
+		margin: 16px 0px;
+	}
+	.paper-btn:hover {
+		opacity: 0.85;
+	}
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.venue {
+		color: #1367a7;
+	}
+
 </style>
 
 <html>
 <head>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title style="">Scalable Neural Video Representations with Learnable Positional Features</title>
 	<meta property="og:image" content="Path to my teaser.png"/> <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. -->
 	<meta property="og:video" content="Path to my video.mp4">
@@ -168,16 +210,49 @@
 		</span>
 		<br>
 		<br>
+		<span style="font-size:25px; color:#000;"  width=1572px>NeurIPS 2022
+		</span>
+		<br>
+		<br>
 		<table align=center width=600px>
 			<table align=center width=600px>
 				<tr>
 					<td align=center width=100px>
 						<center>
-							<span style="font-size:24px"><a href="https://subin-kim-cv.github.io">Subin Kim<sup>*</sup></a>,
-								<a href="https://sihyun.me/">Sihyun Yu<sup>*</sup></a>, 
-								<a href="https://jaeho-lee.github.io/">Jaeho lee</a>,
-								<a href="https://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>
+							<span style="font-size:24px"><a href="https://subin-kim-cv.github.io">Subin Kim<sup>*</sup></a><sup>,1</sup>,
+								<a href="https://sihyun.me/">Sihyun Yu<sup>*</sup></a><sup>,1</sup>,
+								<a href="https://jaeho-lee.github.io/">Jaeho lee</a><sup>2</sup>,
+								<a href="https://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a><sup>1</sup>,
 							</span>
+							
+							<br>
+							<br>
+
+							<span style="font-size:20px">
+								<sup>1</sup> KAIST
+								<sup>2</sup> POSTECH
+							</span>
+
+							<br>
+							<sup>*</sup> Denotes equal contribution
+
+							<br>
+
+							<div class="paper-btn-parent">
+								<a class="paper-btn" href="https://subin-kim-cv.github.io/NVP/assets/publication/2022_NVP/kim2022NVP.pdf">
+									<span class="material-icons"> description </span>
+									Paper
+								</a>
+								<a class="paper-btn" href="https://nvlabs.github.io/instant-ngp/assets/mueller2022instant.mp4">
+									<span class="material-icons"> present_to_all </span>
+									Slide
+								</a>
+								<a class="paper-btn" href="https://github.com/NVlabs/instant-ngp">
+									<span class="material-icons"> terminal </span>
+									Code
+								</a>
+							</div>
+
 						</center>
 					</td>
 				</tr>
