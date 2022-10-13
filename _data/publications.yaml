@@ -5,5 +5,6 @@ papers:
     venue: "Conference on Neural Information Processing Systems (NeurIPS) 2022"
     # paper_pdf: "https://aclanthology.org/2021.emnlp-main.279.pdf"
     project_page: "https://subin-kim-cv.github.io/NVP"
+    code: "https://github.com/subin-kim-cv/NVP"
     # poster: "/assets/publications/2021_leveraging_order-free/SOG_poster.pdf"
     selected: y
