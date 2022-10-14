@@ -3,7 +3,7 @@ papers:
     image: "/assets/publications/2022_NVP/image.jpg"
     authors: "<b><u>Subin Kim</u><sup>*</sup></b>, <a href='https://sihyun.me/'>Sihyun Yu<sup>*</sup></a>, <a href='https://jaeho-lee.github.io/'>Jaeho Lee</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
     venue: "Conference on Neural Information Processing Systems (NeurIPS) 2022"
-    # paper_pdf: "https://aclanthology.org/2021.emnlp-main.279.pdf"
+    paper_pdf: "https://subin-kim-cv.github.io/assets/publications/2022_NVP/kim2022scalable.pdf"
     project_page: "https://subin-kim-cv.github.io/NVP"
     code: "https://github.com/subin-kim-cv/NVP"
     # poster: "/assets/publications/2021_leveraging_order-free/SOG_poster.pdf"
